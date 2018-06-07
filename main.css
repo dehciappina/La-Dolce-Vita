@@ -421,7 +421,7 @@ a:hover, a:visited, a:link, a:active
     width: 100%;
     height: 110%;
     position: absolute;
-    background-image:url('assets/Fotos Principais/estrela_avela.jpg');
+    background-image:url('assets/Fotos Principais/estrela_avela.jpg'), url('assets/Fotos Principais/kefir.jpg'), url('assets/Fotos Principais/coxinha.jpg'), url('assets/Fotos Principais/kibe.jpg'), url('assets/Fotos Principais/brigadeiro.jpg');
 }
 
 @keyframes changing_background {
