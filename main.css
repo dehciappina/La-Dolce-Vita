@@ -599,8 +599,8 @@ a:hover, a:visited, a:link, a:active
 
 @keyframes logo_change_color2 {
     0%, 35% {
-        fill: #eee;
-        stroke: white;
+        fill: #B62;
+        stroke: #940;
         stroke-width: 2px;
     }
 
@@ -841,7 +841,7 @@ a:hover, a:visited, a:link, a:active
         transition:0.5s ease;
         visibility: hidden;
         opacity: 0;
-        background: linear-gradient(120deg, #93d500, #639d47);
+        background: white;
     }
 
         .second_header_appear {
@@ -853,15 +853,17 @@ a:hover, a:visited, a:link, a:active
     #second_header ul {
         display: block;
         width: 100%;
+        margin-left: 0;
     }
 
     #second_header ul li {
-        background: linear-gradient(270deg, transparent 0%, #639d47 40%);
+        background: #639d47;
         height: 90%;
         width: 100%;
         margin-top: 11%;    
         padding: 0;
         transform: unset;
+        border-radius: 0;
     }
 
     #second_header ul li p {
@@ -875,10 +877,11 @@ a:hover, a:visited, a:link, a:active
     .mobile_fechar {
         display: block;
         width: 6vh;
+        height: 6vh;
         padding: 5% 4% 4% 5%;
-        background: rgba(0,0,0,0.1);
+        background: #639d47;
         float: right;
-        border-radius: 0 0 0 20px;
+        border-radius: 0;
     }
 
     .mobile_menu {
@@ -895,7 +898,7 @@ a:hover, a:visited, a:link, a:active
         position: absolute;
         top: 20%;
         left: 0;
-        overflow: auto;
+        overflow: hidden;
         animation: none;
     }
 
@@ -917,8 +920,12 @@ a:hover, a:visited, a:link, a:active
 
     .box h2 {
         line-height: 1.2em;
-        font-size: 4em;
+        font-size: 10vw;
         margin:6% 0 3% 0;
+    }
+
+    .bold_p {
+        font-size: 0.75em;
     }
 
     .box h3 {
@@ -927,19 +934,20 @@ a:hover, a:visited, a:link, a:active
     }
 
     .box h6 {
-        line-height: 3em;
+        line-height: 2.5em;
         font-size: 2em;
     }
 
     .box p {
         margin: 0 3.5vw 1vw 11.5vw;
         width: 70%;
-        font-size: 2.7em;
+        font-size: 3em;
+        line-height: 4vh;
     }
 
     .bold_p {
         position: relative;
-        top: 1em;
+        top: 1vh;
     }
 
     #footer ul li:not(:nth-child(3)) {
