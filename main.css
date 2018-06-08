@@ -721,13 +721,6 @@ a:hover, a:visited, a:link, a:active
     background-image: url(assets/location_icon.svg);
 }
 
-.main_outarea {
-    
-}
-
-.side_button:first-child {
-}
-
 .side_button:last-child {
     right:0;
 }
@@ -821,10 +814,10 @@ a:hover, a:visited, a:link, a:active
     }
 
     #first_header h1 {
-        top: 8%;
-        font-size: 3.4em;
+        top: 30%;
+        font-size: 3.5em;
         text-align: center;
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
         line-height: 4vh;
         position: relative;
@@ -832,9 +825,10 @@ a:hover, a:visited, a:link, a:active
 
     .main_logo {
         position: fixed;
-        width: 30%;
+        height: 9%;
         z-index: 3;
-        left: 1%;
+        left: 6%;
+        top: 0.5%;
     }
 
     #second_header {
@@ -1012,7 +1006,6 @@ a:hover, a:visited, a:link, a:active
     }
 
     .box_02 img {
-        animation: none;
         height: 100%;
     }
 
@@ -1049,6 +1042,13 @@ a:hover, a:visited, a:link, a:active
         transform: skew(0) translate(0);
     }
 
+    .header_background {
+        display: none;
+    }
+
+    .sec_window h1 {
+        font-size: 9vw;
+    }
 
 
 }
