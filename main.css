@@ -944,7 +944,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     .bold_p {
-        font-size: 0.75em;
+        display:none;
     }
 
     .box h3 {
@@ -962,11 +962,6 @@ a:hover, a:visited, a:link, a:active
         width: 70%;
         font-size: 3em;
         line-height: 4vh;
-    }
-
-    .bold_p {
-        position: relative;
-        top: 1vh;
     }
 
     #footer ul li:not(:nth-child(3)) {
@@ -1034,6 +1029,7 @@ a:hover, a:visited, a:link, a:active
 
     .box_02 img {
         height: 100%;
+        width:90vw;
     }
 
     .close {
@@ -1064,6 +1060,50 @@ a:hover, a:visited, a:link, a:active
         animation: blur_animate 0.5s ease running !important;
         animation-fill-mode: forwards !important;
     }
+
+    
+@keyframes changing_background {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-90vw);
+    }
+
+    30% {
+        transform: translateX(-90vw);
+    }
+
+    40% {
+        transform: translateX(-180vw);
+    }
+
+    50% {
+        transform: translateX(-180vw);
+    }
+
+    60% {
+        transform: translateX(-270vw);
+    }
+
+    70% {
+        transform: translateX(-270vw);
+    }
+
+    80% {
+        transform: translateX(-360vw);
+    }
+
+    100% {
+        transform: translateX(-360vw);
+    }
+}
+
 
     #second_header ul li:hover {
         transform: skew(0) translate(0);
