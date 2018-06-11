@@ -1117,5 +1117,9 @@ a:hover, a:visited, a:link, a:active
         font-size: 9vw;
     }
 
+    .gallery_container {
+        width: 500vw;
+    }
+
 
 }
