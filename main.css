@@ -853,7 +853,7 @@ a:hover, a:visited, a:link, a:active
     #second_header {
         position: fixed;
         height: 100%;
-        z-index: 20;
+        z-index: 1000;
         width: 61.8%;
         right: 0;
         transform: translateX(100%);
@@ -1121,5 +1121,42 @@ a:hover, a:visited, a:link, a:active
         width: 500vw;
     }
 
+    .e-mail_window div {
+        width: 100%;
+        height: auto;
+    }
 
+    .e-mail_window div h1 {
+        font-size: 3.2em;
+        width: 100%;
+        margin: 7%;
+    }
+
+    .e-mail_href p {
+        font-size: 3em;
+    }
+
+    .e-mail_href {
+        width: 70%;
+    }
+
+    .botaoenviar {
+        font-size: 3em;
+        padding: 3% 0 14% 0;
+    }
+
+    .sec_window h1 {
+        font-size: 3.2em;
+        left: unset;
+        margin: 7%;
+        top: 0;
+    }
+
+    .telefone2 {
+        display:none;
+    }
+
+    .lado_direito h1 {
+        display: none;
+    }
 }
